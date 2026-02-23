@@ -3,8 +3,8 @@
 ### 🐳 Docker Compose
 
 ```bash
-mkdir statusreactor
-cd statusreactor
+mkdir StatusReactor
+cd StatusReactor
 curl -o compose.yaml https://raw.githubusercontent.com/logarridor/StatusReactor/refs/heads/main/compose.yaml
 docker compose up -d
 ```
@@ -17,7 +17,7 @@ StatusReactor se ejecuta en todas las intefases de red (ejemplo http://localhost
 ### 🐳 Comando Docker
 
 ```bash
-docker run -d --restart=always -p 3001:3001 -v statusreactor:/app/data --name statusreactor logarridor/statusreactor:2
+docker run -d --restart=always -p 3001:3001 -v StatusReactor:/app/data --name StatusReactor logarridor/StatusReactor:2
 ```
 
 StatusReactor se ejecuta en todas las intefases de red (ejemplo http://localhost:3001 or http://your-ip:3001).
@@ -38,7 +38,7 @@ Requisitos:
   - ❌ Replit / Heroku
 - [Node.js](https://nodejs.org/en/download/) >= 20.4
 - [Git](https://git-scm.com/downloads)
-- [pm2](https://pm2.keymetrics.io/) - Para ejecutar StatusReactor en segundo plano
+- [pm2](https://pm2.keymetrics.io/) - Para ejecutar statusreactor en segundo plano
 
 ```bash
 git clone https://github.com/logarridor/StatusReactor.git
