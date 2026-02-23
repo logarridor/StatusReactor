@@ -5,7 +5,7 @@
                 {{ $root.connectionErrorMsg }}
                 <div v-if="$root.showReverseProxyGuide">
                     {{ $t("Using a Reverse Proxy?") }}
-                    <a href="https://github.com/louislam/uptime-kuma/wiki/Reverse-Proxy" target="_blank">
+                    <a href="https://github.com/logarridor/StatusReactor/wiki/Reverse-Proxy" target="_blank">
                         {{ $t("Check how to config it for WebSocket") }}
                     </a>
                 </div>
@@ -87,7 +87,7 @@
 
                             <li>
                                 <a
-                                    href="https://github.com/louislam/uptime-kuma/wiki"
+                                    href="https://github.com/logarridor/StatusReactor/wiki"
                                     class="dropdown-item"
                                     target="_blank"
                                 >

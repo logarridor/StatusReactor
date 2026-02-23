@@ -314,8 +314,8 @@ export async function createReleasePR(version, previousVersion, dryRun, branchNa
     
     // Build the artifact link - use direct run link if available, otherwise link to workflow file
     const artifactLink = githubRunId 
-        ? `https://github.com/louislam/uptime-kuma/actions/runs/${githubRunId}/workflow`
-        : `https://github.com/louislam/uptime-kuma/actions/workflows/beta-release.yml`;
+        ? `https://github.com/logarridor/StatusReactor/actions/runs/${githubRunId}/workflow`
+        : `https://github.com/logarridor/StatusReactor/actions/workflows/beta-release.yml`;
     
     const body = `## Release ${version}
 

@@ -522,7 +522,7 @@ class Database {
                 log.error("db", "Start Uptime-Kuma failed due to issue patching the database");
                 log.error(
                     "db",
-                    "Please submit a bug report if you still encounter the problem after restart: https://github.com/louislam/uptime-kuma/issues"
+                    "Please submit a bug report if you still encounter the problem after restart: https://github.com/logarridor/StatusReactor/issues"
                 );
 
                 process.exit(1);
@@ -566,7 +566,7 @@ class Database {
             log.error("db", "Start Uptime-Kuma failed due to issue patching the database");
             log.error(
                 "db",
-                "Please submit the bug report if you still encounter the problem after restart: https://github.com/louislam/uptime-kuma/issues"
+                "Please submit the bug report if you still encounter the problem after restart: https://github.com/logarridor/StatusReactor/issues"
             );
 
             process.exit(1);

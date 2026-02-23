@@ -1,10 +1,10 @@
 {
-    "name": "uptime-kuma",
+    "name": "StatusReactor",
     "version": "2.1.3",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/louislam/uptime-kuma.git"
+        "url": "https://github.com/logarridor/StatusReactor.git"
     },
     "engines": {
         "node": ">= 20.4.0"
